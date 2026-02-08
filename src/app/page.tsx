@@ -1,65 +1,76 @@
-import Image from "next/image";
+import Link from "next/link";
+
+import { ArcGrid } from "@/components/arc-grid";
+import { SubscribeForm } from "@/components/subscribe-form";
+import { getArcSummaries, getProgramStats } from "@/lib/content";
 
 export default function Home() {
+  const arcs = getArcSummaries();
+  const stats = getProgramStats();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="mx-auto w-full max-w-6xl px-6 py-14 md:px-8 md:py-18">
+      <section className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+        <div className="space-y-6">
+          <p className="text-xs tracking-[0.28em] text-white/60">WORLDVIEW LEVEL UP</p>
+          <h1 className="max-w-3xl font-display text-6xl leading-[0.94] text-white md:text-8xl">
+            School for life,
+            <span className="text-[#ffd18c]"> taught through film.</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+          <p className="max-w-2xl text-lg leading-8 text-white/80">
+            A curated 12-week starter path for self-driven young adults. Every week: one film, one context brief,
+            one reflection flow, one action step.
+          </p>
+          <div className="flex flex-wrap gap-3 text-sm text-white/85">
+            <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2">{stats.totalWeeks} weeks</span>
+            <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2">{stats.totalArcs} thematic arcs</span>
+            <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2">{Math.round(stats.totalRuntime / 60)}h total watch time</span>
+          </div>
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="/curriculum"
+              className="rounded-xl bg-[#ffd18c] px-6 py-3 text-sm font-semibold tracking-[0.12em] text-black transition hover:bg-[#ffe8c4]"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              VIEW CURRICULUM
+            </Link>
+            <Link
+              href="/subscribe"
+              className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold tracking-[0.12em] text-white transition hover:border-white/35"
             >
-              Learning
-            </a>{" "}
-            center.
+              GET WEEKLY UPDATES
+            </Link>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/15 bg-white/[0.04] p-6 backdrop-blur">
+          <h2 className="font-display text-4xl text-white">How it works</h2>
+          <ol className="mt-4 space-y-3 text-sm leading-6 text-white/80">
+            <li>1. Watch one assigned film each week.</li>
+            <li>2. Read a concise lens on history, culture, and systems.</li>
+            <li>3. Reflect with prompts designed for worldview growth.</li>
+            <li>4. Apply one action step in your real life that same week.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section className="mt-16 space-y-7">
+        <div className="space-y-2">
+          <p className="text-xs tracking-[0.24em] text-white/60">12-WEEK STARTER PATH</p>
+          <h2 className="font-display text-5xl text-white md:text-6xl">Curriculum Preview</h2>
+        </div>
+        <ArcGrid arcs={arcs} />
+      </section>
+
+      <section className="mt-18 grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
+        <div className="space-y-3">
+          <p className="text-xs tracking-[0.24em] text-white/60">BUILD IN PUBLIC</p>
+          <h2 className="font-display text-5xl leading-[1] text-white md:text-6xl">Get weekly drops as we expand the curriculum.</h2>
+          <p className="max-w-xl text-white/80">
+            Join the list for new lessons, editor notes, and launch updates as the full Movie School library grows.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        <SubscribeForm />
+      </section>
+    </main>
   );
 }

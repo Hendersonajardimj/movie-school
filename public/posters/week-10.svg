@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b486b"/>
+      <stop offset="1" stop-color="#3b8686"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#g)"/>
+  <circle cx="640" cy="220" r="180" fill="white" fill-opacity="0.06"/>
+  <circle cx="120" cy="980" r="220" fill="white" fill-opacity="0.05"/>
+  <rect x="64" y="76" width="672" height="1048" stroke="white" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="88" y="170" fill="white" fill-opacity="0.85" font-family="Georgia, serif" font-size="34" letter-spacing="5">MOVIE SCHOOL</text>
+  <text x="88" y="980" fill="white" font-family="Impact, sans-serif" font-size="72" letter-spacing="2">THE SOCIAL NETWORK</text>
+  <text x="88" y="1045" fill="white" fill-opacity="0.88" font-family="Georgia, serif" font-size="48">2010</text>
+</svg>
