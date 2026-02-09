@@ -3,24 +3,26 @@ slug: week-07-spirited-away
 week: 7
 arc: identity-and-relationships
 arcTitle: Identity and Relationships
-filmTitle: Spirited Away
-year: 2001
-runtime: 125
+films:
+  - title: Moonlight
+    year: 2016
+    runtime: 111
+  - title: Aftersun
+    year: 2022
+    runtime: 102
 poster: /posters/week-07.svg
-thesis: Identity matures through responsibility, memory, and care under pressure.
+thesis: Emotional literacy is a survival skill, not a soft extra.
 outcomes:
   - emotional-resilience
   - cultural-literacy
   - practical-adulthood
 prompts:
-  - What does taking a new name symbolize in this world?
-  - How does Chihiro change without becoming cynical?
-  - Which modern rites of passage are missing for young adults today?
-actionStep: "Write a short personal code: 5 values you will hold under stress."
+  - What feelings are legible in silence across both films?
+  - How does each story frame masculinity as performance versus truth?
+  - What emotional pattern from your past still shapes your present choices?
+actionStep: "Write one page on an emotion you usually avoid and discuss it with someone you trust."
 furtherViewing:
-  - Princess Mononoke (1997)
-  - Your Name (2016)
+  - Minari (2020)
+  - The Florida Project (2017)
 ---
-This is not escapism. It is a coming-of-age manual in symbolic form: labor, fear, courage, and integrity. The fantasy setting makes real lessons easier to absorb.
-
-You train resilience by watching growth that is earned, not gifted.
+Both films center memory, care, and what people cannot say out loud. Use this week to build language for emotions that are usually flattened into "fine" or "stressed."

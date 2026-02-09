@@ -18,13 +18,14 @@ describe("content pipeline", () => {
 
   it("resolves lesson by slug", () => {
     const lesson = getLessonBySlug("week-12-idiocracy");
-    expect(lesson?.filmTitle).toBe("Idiocracy");
+    expect(lesson?.films[0]?.title).toBe("Idiocracy");
+    expect(lesson?.films).toHaveLength(2);
   });
 
   it("returns consistent program stats", () => {
     const stats = getProgramStats();
     expect(stats.totalWeeks).toBe(12);
     expect(stats.totalArcs).toBe(3);
-    expect(stats.totalRuntime).toBeGreaterThan(1000);
+    expect(stats.totalRuntime).toBeGreaterThan(2000);
   });
 });

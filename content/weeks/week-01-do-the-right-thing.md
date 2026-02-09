@@ -3,24 +3,28 @@ slug: week-01-do-the-right-thing
 week: 1
 arc: power-and-systems
 arcTitle: Power and Systems
-filmTitle: Do the Right Thing
-year: 1989
-runtime: 120
+films:
+  - title: The War of the Worlds (Orson Welles Radio Broadcast)
+    year: 1938
+    runtime: 60
+  - title: Network
+    year: 1976
+    runtime: 121
 poster: /posters/week-01.svg
-thesis: Heat reveals power. Neighborhood conflict is never only personal; it is structural.
+thesis: Media power compounds when urgency outruns verification.
 outcomes:
   - contextual-awareness
-  - emotional-resilience
+  - practical-adulthood
   - cultural-literacy
 prompts:
-  - Which conflict in the film looked personal but was actually systemic?
-  - Where did you see people talking past each other rather than listening?
-  - What scene most challenged your default assumptions about fairness?
-actionStep: In one disagreement this week, map the structural pressures before judging the people.
+  - What made the 1938 broadcast believable to so many listeners?
+  - Which incentives in Network reward spectacle over truth?
+  - Where do you feel this pattern in modern algorithmic media?
+actionStep: "For one week, verify one major claim per day before sharing it."
 furtherViewing:
-  - La Haine (1995)
-  - Fruitvale Station (2013)
+  - All the President's Men (1976)
+  - The Social Dilemma (2020)
 ---
-A block in Brooklyn becomes a pressure cooker, and every character is operating under forces bigger than themselves: money, heat, race, policing, pride, and belonging. The point is not to find one villain. The point is to notice systems producing predictable friction.
+Start with a media literacy foundation. The broadcast shows how format and authority can override skepticism, while Network shows how institutions monetize attention. Together they frame a core worldview skill: separating emotional velocity from evidence quality.
 
-If you can train yourself to ask "what incentives and constraints are in play?" your worldview levels up fast. This week is about seeing context before reacting.
+This week is not anti-media. It is pro-discernment.

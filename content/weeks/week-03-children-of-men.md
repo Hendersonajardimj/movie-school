@@ -3,24 +3,28 @@ slug: week-03-children-of-men
 week: 3
 arc: power-and-systems
 arcTitle: Power and Systems
-filmTitle: Children of Men
-year: 2006
-runtime: 109
+films:
+  - title: The Battle of Algiers
+    year: 1966
+    runtime: 121
+  - title: Children of Men
+    year: 2006
+    runtime: 109
 poster: /posters/week-03.svg
-thesis: Social collapse looks incremental until it suddenly feels normal.
+thesis: State force and public fear can normalize extraordinary controls.
 outcomes:
   - contextual-awareness
   - practical-adulthood
   - emotional-resilience
 prompts:
-  - Which policies in the film felt unthinkable at first, then normalized?
-  - How does fear reshape what people accept from institutions?
-  - What signs of slow collapse do you notice in current media narratives?
-actionStep: "Audit one news source this week for framing bias: what is included, omitted, or sensationalized?"
+  - What tactics are justified as temporary but become permanent?
+  - How do both films depict legitimacy as a contest, not a given?
+  - Which modern policies should be evaluated through this lens?
+actionStep: "Pick one current policy debate and map the tradeoff between safety and civil liberty."
 furtherViewing:
-  - District 9 (2009)
+  - Z (1969)
   - V for Vendetta (2005)
 ---
-Dystopia in this world is not flashy. It is paperwork, camps, checkpoints, and exhausted people deciding what still matters. That realism is why the movie lands.
+One film documents anti-colonial conflict; the other imagines near-future collapse. The connective tissue is normalization. Both show how populations adapt to conditions they once found unacceptable.
 
-This lesson trains systems literacy and media literacy at the same time: if you can identify normalization patterns, you can resist manipulation and panic.
+Your upgrade this week is systems alertness under stress narratives.

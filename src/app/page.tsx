@@ -18,7 +18,7 @@ export default function Home() {
             <span className="text-[#ffd18c]"> taught through film.</span>
           </h1>
           <p className="max-w-2xl text-lg leading-8 text-white/80">
-            A curated 12-week starter path for self-driven young adults. Every week: one film, one context brief,
+            A curated 12-week starter path for self-driven young adults. Every week: two films, one context brief,
             one reflection flow, one action step.
           </p>
           <div className="flex flex-wrap gap-3 text-sm text-white/85">
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="rounded-2xl border border-white/15 bg-white/[0.04] p-6 backdrop-blur">
           <h2 className="font-display text-4xl text-white">How it works</h2>
           <ol className="mt-4 space-y-3 text-sm leading-6 text-white/80">
-            <li>1. Watch one assigned film each week.</li>
+            <li>1. Watch two assigned films each week.</li>
             <li>2. Read a concise lens on history, culture, and systems.</li>
             <li>3. Reflect with prompts designed for worldview growth.</li>
             <li>4. Apply one action step in your real life that same week.</li>

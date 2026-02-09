@@ -91,11 +91,15 @@ slug: week-01-do-the-right-thing
 week: 1
 arc: power-and-systems
 arcTitle: Power and Systems
-filmTitle: Do the Right Thing
-year: 1989
-runtime: 120
+films:
+  - title: The War of the Worlds (Orson Welles Radio Broadcast)
+    year: 1938
+    runtime: 60
+  - title: Network
+    year: 1976
+    runtime: 121
 poster: /posters/week-01.svg
-thesis: Heat reveals power. Neighborhood conflict is never only personal; it is structural.
+thesis: Media power compounds when urgency outruns verification.
 outcomes:
   - contextual-awareness
   - emotional-resilience

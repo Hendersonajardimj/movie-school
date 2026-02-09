@@ -3,24 +3,26 @@ slug: week-09-la-haine
 week: 9
 arc: future-and-modern-life
 arcTitle: Future and Modern Life
-filmTitle: La Haine
-year: 1995
-runtime: 98
+films:
+  - title: The Lives of Others
+    year: 2006
+    runtime: 137
+  - title: All the President's Men
+    year: 1976
+    runtime: 138
 poster: /posters/week-09.svg
-thesis: Alienation accumulates until one spark turns tension into rupture.
+thesis: Information control determines what a society can know, trust, and challenge.
 outcomes:
   - contextual-awareness
-  - emotional-resilience
+  - practical-adulthood
   - cultural-literacy
 prompts:
-  - How does humiliation function as political fuel in the film?
-  - Where do friendship and performative toughness conflict?
-  - Which institutions feel absent, and what fills that vacuum?
-actionStep: Notice one place in your community where neglect is obvious; document and share responsibly.
+  - What mechanisms of truth suppression appear in both systems?
+  - How do personal ethics interact with institutional pressure?
+  - What does responsible skepticism look like in your own media diet?
+actionStep: "Build a 5-source information stack with mixed perspectives and one verification source."
 furtherViewing:
-  - City of God (2002)
-  - Do the Right Thing (1989)
+  - Spotlight (2015)
+  - The Post (2017)
 ---
-This film is built on pressure and countdown energy. It captures how boredom, exclusion, and contempt can make violence feel inevitable.
-
-The takeaway is early intervention mindset: social fractures are visible long before crisis headlines.
+One film is surveillance-state fiction grounded in history; the other is investigative journalism process. Together they teach a civic skill: truth requires method, courage, and time.

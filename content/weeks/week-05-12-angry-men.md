@@ -3,24 +3,28 @@ slug: week-05-12-angry-men
 week: 5
 arc: identity-and-relationships
 arcTitle: Identity and Relationships
-filmTitle: 12 Angry Men
-year: 1957
-runtime: 96
+films:
+  - title: Minding the Gap
+    year: 2018
+    runtime: 93
+  - title: Hoop Dreams
+    year: 1994
+    runtime: 170
 poster: /posters/week-05.svg
-thesis: Better decisions come from disciplined doubt, not louder certainty.
+thesis: Friendship can be protective or fragile depending on class, trauma, and time.
 outcomes:
-  - practical-adulthood
   - emotional-resilience
   - contextual-awareness
+  - practical-adulthood
 prompts:
-  - Which cognitive bias showed up most clearly in the jury room?
-  - What persuasion move changed the room without humiliation?
-  - How do you behave when social pressure rewards speed over accuracy?
-actionStep: In one meeting this week, ask one clarifying question before giving your opinion.
+  - How do both films show diverging life paths inside the same friend group?
+  - What support did each subject need but not consistently receive?
+  - Which friendships in your life are growth engines versus nostalgia loops?
+actionStep: "Reach out to one old friend and ask one real question about how they are actually doing."
 furtherViewing:
-  - Anatomy of a Fall (2023)
-  - The Verdict (1982)
+  - Boyz n the Hood (1991)
+  - Mid90s (2018)
 ---
-Almost the entire film happens in one room, which is why it is such a useful thinking lab. You see bias, ego, fatigue, and fear fight against evidence.
+Your collaborators picked a strong pair. These are not just sports or skate stories. They are long-view studies of masculinity, economic pressure, and emotional inheritance.
 
-This week upgrades practical judgment: slow down, test assumptions, and separate confidence from truth.
+This week trains relational realism: loyalty matters, but circumstances still shape outcomes.

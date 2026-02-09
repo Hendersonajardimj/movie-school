@@ -3,24 +3,28 @@ slug: week-02-grave-of-the-fireflies
 week: 2
 arc: power-and-systems
 arcTitle: Power and Systems
-filmTitle: Grave of the Fireflies
-year: 1988
-runtime: 89
+films:
+  - title: Grave of the Fireflies
+    year: 1988
+    runtime: 89
+  - title: Barefoot Gen
+    year: 1983
+    runtime: 83
 poster: /posters/week-02.svg
-thesis: War is logistics and deprivation, not only battlefield heroism.
+thesis: War is sustained civilian suffering, not abstract strategy.
 outcomes:
   - contextual-awareness
   - emotional-resilience
   - practical-adulthood
 prompts:
-  - What did the film teach you about civilian life under collapsing systems?
-  - Where did pride help the characters, and where did it hurt them?
-  - Which modern comforts do you now see as fragile?
-actionStep: "Build a simple one-week emergency plan: food, meds, contacts, and transport."
+  - What kinds of harm become invisible in sanitized war narratives?
+  - How do scarcity and pride alter moral decision-making?
+  - What responsibilities do stable societies have to vulnerable civilians?
+actionStep: "Create a basic preparedness checklist for your household: food, medicine, contacts, transport."
 furtherViewing:
   - Come and See (1985)
   - In This Corner of the World (2016)
 ---
-This film is quiet but brutal in what it teaches: institutions can fail quickly, and ordinary people pay first. It reframes war away from strategy maps and toward children, food, shelter, and dignity.
+Both films force attention onto children and ordinary families, where policy failure and military violence are felt first. The point is not shock value. The point is to sharpen moral clarity about what conflict actually does to human life.
 
-The worldview upgrade here is practical compassion. You are not just "feeling sad"; you are training to understand vulnerability, dependence, and preparedness.
+Use this week to replace abstract language with concrete empathy and preparedness.

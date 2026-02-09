@@ -6,14 +6,18 @@ import { z } from "zod";
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "weeks");
 
+const filmSchema = z.object({
+  title: z.string().min(1),
+  year: z.number().int().min(1900).max(2100),
+  runtime: z.number().int().min(1),
+});
+
 const weekSchema = z.object({
   slug: z.string().min(1),
   week: z.number().int().min(1).max(52),
   arc: z.string().min(1),
   arcTitle: z.string().min(1),
-  filmTitle: z.string().min(1),
-  year: z.number().int().min(1900).max(2100),
-  runtime: z.number().int().min(1),
+  films: z.array(filmSchema).length(2),
   poster: z.string().min(1),
   thesis: z.string().min(1),
   outcomes: z.array(z.string().min(1)).min(1),
@@ -83,7 +87,10 @@ export function getArcSummaries(): ArcSummary[] {
 
 export function getProgramStats() {
   const lessons = getAllLessons();
-  const totalRuntime = lessons.reduce((sum, lesson) => sum + lesson.runtime, 0);
+  const totalRuntime = lessons.reduce(
+    (sum, lesson) => sum + lesson.films.reduce((pairTotal, film) => pairTotal + film.runtime, 0),
+    0,
+  );
 
   return {
     totalWeeks: lessons.length,

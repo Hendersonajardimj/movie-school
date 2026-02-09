@@ -3,24 +3,28 @@ slug: week-12-idiocracy
 week: 12
 arc: future-and-modern-life
 arcTitle: Future and Modern Life
-filmTitle: Idiocracy
-year: 2006
-runtime: 84
+films:
+  - title: Idiocracy
+    year: 2006
+    runtime: 84
+  - title: Brazil
+    year: 1985
+    runtime: 132
 poster: /posters/week-12.svg
-thesis: Institutions decay when attention, literacy, and incentives are continuously degraded.
+thesis: Bureaucracy, spectacle, and anti-intellectual incentives can hollow out civic life.
 outcomes:
   - contextual-awareness
   - practical-adulthood
   - emotional-resilience
 prompts:
-  - Which jokes in the film now feel less like satire and more like warning?
-  - How do media incentives reward outrage over understanding?
-  - What habits protect your attention from manipulation?
-actionStep: "Build a personal information hygiene plan: sources, limits, and verification rules."
+  - What institutional failure mode appears in both satire and dystopia?
+  - How do these stories depict citizens adapting to absurd systems?
+  - What personal habits keep you from passive civic drift?
+actionStep: "Write a one-page anti-drift plan: information rules, civic actions, and attention boundaries."
 furtherViewing:
-  - Network (1976)
   - Don't Look Up (2021)
+  - Dr. Strangelove (1964)
 ---
-Idiocracy is broad satire, but the underlying warning is serious: if civic literacy collapses, bad systems become durable.
+End the path with systems humor and systems nightmare. Both films show how dysfunction becomes normal when accountability erodes.
 
-End the 12-week path by defining your anti-drift plan: what you will read, question, and practice to stay sharp.
+Your final task is synthesis: keep what sharpened your worldview and turn it into repeatable practice.

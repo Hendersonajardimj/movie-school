@@ -21,18 +21,28 @@ export default async function LessonPage({ params }: LessonPageProps) {
     notFound();
   }
 
+  const pairTitle = lesson.films.map((film) => film.title).join(" + ");
+  const pairRuntime = lesson.films.reduce((sum, film) => sum + film.runtime, 0);
+
   return (
     <main className="mx-auto w-full max-w-6xl px-6 py-14 md:px-8">
       <section className="grid gap-8 lg:grid-cols-[320px_1fr]">
         <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-white/15">
-          <Image src={lesson.poster} alt={`${lesson.filmTitle} poster`} fill className="object-cover" priority />
+          <Image src={lesson.poster} alt={`${pairTitle} poster`} fill className="object-cover" priority />
         </div>
 
         <div className="space-y-7">
           <header className="space-y-3">
             <p className="text-xs tracking-[0.24em] text-white/60">WEEK {lesson.week} · {lesson.arcTitle}</p>
-            <h1 className="font-display text-6xl leading-[0.95] text-white md:text-7xl">{lesson.filmTitle}</h1>
-            <p className="text-white/80">{lesson.year} · {lesson.runtime} min</p>
+            <h1 className="font-display text-5xl leading-[0.95] text-white md:text-7xl">{pairTitle}</h1>
+            <p className="text-white/80">{pairRuntime} min total</p>
+            <ul className="space-y-1 text-sm text-white/80">
+              {lesson.films.map((film) => (
+                <li key={film.title}>
+                  • {film.title} ({film.year}) · {film.runtime} min
+                </li>
+              ))}
+            </ul>
             <p className="rounded-xl border border-[#ffd18c]/35 bg-[#ffd18c]/7 p-4 text-white/90">{lesson.thesis}</p>
           </header>
 

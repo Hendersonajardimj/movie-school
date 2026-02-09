@@ -3,24 +3,26 @@ slug: week-08-moonlight
 week: 8
 arc: identity-and-relationships
 arcTitle: Identity and Relationships
-filmTitle: Moonlight
-year: 2016
-runtime: 111
+films:
+  - title: Minari
+    year: 2020
+    runtime: 115
+  - title: The Farewell
+    year: 2019
+    runtime: 100
 poster: /posters/week-08.svg
-thesis: Masculinity, vulnerability, and love are shaped by environment and survival.
+thesis: Family identity is negotiated across migration, duty, and belonging.
 outcomes:
   - emotional-resilience
   - cultural-literacy
   - contextual-awareness
 prompts:
-  - Which emotional needs are visible but never spoken directly?
-  - How does environment script identity choices over time?
-  - What armor do you wear that no longer serves you?
-actionStep: Have one honest conversation you have avoided, with one concrete ask.
+  - How do both families balance care with unspoken obligation?
+  - Which generational conflict felt most familiar to you and why?
+  - What does belonging cost in each story?
+actionStep: "Have one conversation with a family member about values you assume but have never asked about."
 furtherViewing:
-  - Aftersun (2022)
-  - The Farewell (2019)
+  - Everything Everywhere All at Once (2022)
+  - Past Lives (2023)
 ---
-Moonlight tracks identity in three chapters, showing how people adapt to survive social pressure. Tenderness and fear coexist in every phase.
-
-This week is about emotional literacy as strength, not weakness.
+These films teach how culture lives in daily decisions, not slogans. Pay attention to what is left unsaid, because that is often where duty and love collide.

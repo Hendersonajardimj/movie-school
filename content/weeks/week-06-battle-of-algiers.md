@@ -3,24 +3,26 @@ slug: week-06-battle-of-algiers
 week: 6
 arc: identity-and-relationships
 arcTitle: Identity and Relationships
-filmTitle: The Battle of Algiers
-year: 1966
-runtime: 121
+films:
+  - title: A Patch of Blue
+    year: 1965
+    runtime: 105
+  - title: Guess Who's Coming to Dinner
+    year: 1967
+    runtime: 108
 poster: /posters/week-06.svg
-thesis: Legitimacy, violence, and resistance are narratives fought in public view.
+thesis: Overt prejudice and polite bias are different forms of the same boundary-making instinct.
 outcomes:
-  - contextual-awareness
   - cultural-literacy
   - emotional-resilience
+  - contextual-awareness
 prompts:
-  - How does each side justify its tactics morally and politically?
-  - Which scenes changed your view of "order" versus "justice"?
-  - What parallels do you see in modern protest coverage?
-actionStep: Compare two reports on the same protest event and document framing differences.
+  - How do public norms and private discomfort clash in each film?
+  - What justifications do families use to protect self-image?
+  - Where do you still see "acceptable" bias in modern social spaces?
+actionStep: "Notice one biased assumption you make this week, then rewrite it with evidence-based language."
 furtherViewing:
-  - Z (1969)
-  - The Wind That Shakes the Barley (2006)
+  - In the Heat of the Night (1967)
+  - Get Out (2017)
 ---
-Shot with documentary energy, this film forces hard questions about power, occupation, and retaliation. It does not offer easy heroes.
-
-The worldview gain is learning to separate analysis from tribal reflex. You can condemn harm while still understanding dynamics.
+This pair captures a transition moment in American culture: explicit racism facing social pressure while subtler bias remains intact. The key lesson is pattern recognition across tone and era.
