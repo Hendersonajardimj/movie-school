@@ -8,14 +8,13 @@ type WeekCardProps = {
 };
 
 export function WeekCard({ lesson }: WeekCardProps) {
-  const firstFilm = lesson.films[0];
   const pairTitle = lesson.films.map((film) => film.title).join(" + ");
   const totalRuntime = lesson.films.reduce((sum, film) => sum + film.runtime, 0);
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-[0_24px_42px_-32px_rgba(0,0,0,0.75)] transition hover:-translate-y-1 hover:border-white/35">
       <Link href={`/week/${lesson.slug}`}>
-        <div className="relative aspect-[2/3] overflow-hidden">
+        <div className="relative aspect-[4/5] overflow-hidden">
           <Image
             src={lesson.poster}
             alt={`${pairTitle} poster`}
@@ -29,13 +28,23 @@ export function WeekCard({ lesson }: WeekCardProps) {
             WEEK {lesson.week}
           </p>
           <div className="absolute bottom-0 p-5">
-            <h3 className="font-display text-3xl leading-[1.05] text-white">{firstFilm.title}</h3>
-            <p className="mt-1 text-sm text-white/80">+ {lesson.films[1].title}</p>
-            <p className="mt-2 text-sm text-white/80">{totalRuntime} min total</p>
+            <p className="text-xs tracking-[0.24em] text-white/80">DOUBLE FEATURE</p>
+            <p className="mt-1 text-sm text-white/80">{totalRuntime} min total</p>
           </div>
         </div>
       </Link>
       <div className="flex flex-1 flex-col gap-4 p-5">
+        <div className="grid gap-3">
+          {lesson.films.map((film, index) => (
+            <div key={film.title} className="rounded-xl border border-white/15 bg-black/25 p-3">
+              <p className="text-[10px] tracking-[0.2em] text-[#ffd18c]">FILM {String(index + 1).padStart(2, "0")}</p>
+              <h3 className="mt-1 font-display text-2xl leading-[1.05] text-white">{film.title}</h3>
+              <p className="mt-1 text-xs text-white/75">
+                {film.year} · {film.runtime} min
+              </p>
+            </div>
+          ))}
+        </div>
         <p className="text-sm leading-6 text-white/80">{lesson.thesis}</p>
         <Link
           href={`/week/${lesson.slug}`}

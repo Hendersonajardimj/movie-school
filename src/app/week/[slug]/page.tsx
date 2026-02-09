@@ -34,15 +34,20 @@ export default async function LessonPage({ params }: LessonPageProps) {
         <div className="space-y-7">
           <header className="space-y-3">
             <p className="text-xs tracking-[0.24em] text-white/60">WEEK {lesson.week} · {lesson.arcTitle}</p>
-            <h1 className="font-display text-5xl leading-[0.95] text-white md:text-7xl">{pairTitle}</h1>
+            <h1 className="font-display text-5xl leading-[0.95] text-white md:text-7xl">Double Feature</h1>
+            <p className="font-display text-2xl text-white/90 md:text-3xl">{pairTitle}</p>
             <p className="text-white/80">{pairRuntime} min total</p>
-            <ul className="space-y-1 text-sm text-white/80">
-              {lesson.films.map((film) => (
-                <li key={film.title}>
-                  • {film.title} ({film.year}) · {film.runtime} min
-                </li>
+            <div className="grid gap-3 md:grid-cols-2">
+              {lesson.films.map((film, index) => (
+                <div key={film.title} className="rounded-xl border border-white/15 bg-black/25 p-4">
+                  <p className="text-[10px] tracking-[0.2em] text-[#ffd18c]">FILM {String(index + 1).padStart(2, "0")}</p>
+                  <p className="mt-1 font-display text-2xl leading-[1.05] text-white">{film.title}</p>
+                  <p className="mt-1 text-sm text-white/75">
+                    {film.year} · {film.runtime} min
+                  </p>
+                </div>
               ))}
-            </ul>
+            </div>
             <p className="rounded-xl border border-[#ffd18c]/35 bg-[#ffd18c]/7 p-4 text-white/90">{lesson.thesis}</p>
           </header>
 
