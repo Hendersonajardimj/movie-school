@@ -7,11 +7,15 @@ films:
   - title: Princess Mononoke
     year: 1997
     runtime: 134
+    poster: /posters/films/princess-mononoke.jpg
   - title: WALL-E
     year: 2008
     runtime: 98
+    poster: /posters/films/wall-e.jpg
 poster: /posters/week-11.jpg
-thesis: Ecological collapse is a systems problem tied to consumption, governance, and attention.
+thesis: >-
+  Ecological collapse is a systems problem tied to consumption, governance, and
+  attention.
 outcomes:
   - contextual-awareness
   - emotional-resilience
@@ -20,7 +24,9 @@ prompts:
   - How does each film distribute blame between individuals and institutions?
   - Which comforts in your life rely on hidden ecological costs?
   - What kind of sacrifice is realistic versus symbolic for you right now?
-actionStep: "Pick one recurring consumption habit and reduce its footprint for the next month."
+actionStep: >-
+  Pick one recurring consumption habit and reduce its footprint for the next
+  month.
 furtherViewing:
   - Nausicaa of the Valley of the Wind (1984)
   - First Reformed (2017)

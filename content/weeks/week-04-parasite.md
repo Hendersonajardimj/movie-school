@@ -7,11 +7,13 @@ films:
   - title: Parasite
     year: 2019
     runtime: 132
+    poster: /posters/films/parasite-2019.jpg
   - title: Sorry to Bother You
     year: 2018
     runtime: 112
+    poster: /posters/films/sorry-to-bother-you.jpg
 poster: /posters/week-04.jpg
-thesis: Class pressure reshapes identity, labor, and moral choices.
+thesis: 'Class pressure reshapes identity, labor, and moral choices.'
 outcomes:
   - contextual-awareness
   - cultural-literacy
@@ -20,7 +22,9 @@ prompts:
   - How do performance and code-switching function as survival tools?
   - Which institutions in each story reward dehumanization?
   - Where do you see class anxiety hidden as lifestyle preference?
-actionStep: "Audit one week of spending and tag each purchase as survival, status, or convenience."
+actionStep: >-
+  Audit one week of spending and tag each purchase as survival, status, or
+  convenience.
 furtherViewing:
   - Shoplifters (2018)
   - The Platform (2019)

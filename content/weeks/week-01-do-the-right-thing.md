@@ -7,9 +7,11 @@ films:
   - title: The War of the Worlds (Orson Welles Radio Broadcast)
     year: 1938
     runtime: 60
+    poster: /posters/films/war-of-the-worlds-1938-radio.jpg
   - title: Network
     year: 1976
     runtime: 121
+    poster: /posters/films/network-1976.jpg
 poster: /posters/week-01.jpg
 thesis: Media power compounds when urgency outruns verification.
 outcomes:
@@ -20,7 +22,7 @@ prompts:
   - What made the 1938 broadcast believable to so many listeners?
   - Which incentives in Network reward spectacle over truth?
   - Where do you feel this pattern in modern algorithmic media?
-actionStep: "For one week, verify one major claim per day before sharing it."
+actionStep: 'For one week, verify one major claim per day before sharing it.'
 furtherViewing:
   - All the President's Men (1976)
   - The Social Dilemma (2020)

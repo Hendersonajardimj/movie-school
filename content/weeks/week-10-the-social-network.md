@@ -7,9 +7,11 @@ films:
   - title: The Social Network
     year: 2010
     runtime: 120
+    poster: /posters/films/the-social-network.jpg
   - title: Her
     year: 2013
     runtime: 126
+    poster: /posters/films/her-2013.jpg
 poster: /posters/week-10.jpg
 thesis: Technology scales both ambition and emotional outsourcing.
 outcomes:
@@ -20,7 +22,9 @@ prompts:
   - Which design incentives in each film reward disconnection?
   - Where does convenience become dependency?
   - How should product builders define non-negotiable ethical boundaries?
-actionStep: "Replace one low-value digital habit with one high-friction human action this week."
+actionStep: >-
+  Replace one low-value digital habit with one high-friction human action this
+  week.
 furtherViewing:
   - Ex Machina (2014)
   - The Great Hack (2019)

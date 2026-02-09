@@ -7,11 +7,15 @@ films:
   - title: Idiocracy
     year: 2006
     runtime: 84
+    poster: /posters/films/idiocracy.jpg
   - title: Brazil
     year: 1985
     runtime: 132
+    poster: /posters/films/brazil-1985.jpg
 poster: /posters/week-12.jpg
-thesis: Bureaucracy, spectacle, and anti-intellectual incentives can hollow out civic life.
+thesis: >-
+  Bureaucracy, spectacle, and anti-intellectual incentives can hollow out civic
+  life.
 outcomes:
   - contextual-awareness
   - practical-adulthood
@@ -20,7 +24,9 @@ prompts:
   - What institutional failure mode appears in both satire and dystopia?
   - How do these stories depict citizens adapting to absurd systems?
   - What personal habits keep you from passive civic drift?
-actionStep: "Write a one-page anti-drift plan: information rules, civic actions, and attention boundaries."
+actionStep: >-
+  Write a one-page anti-drift plan: information rules, civic actions, and
+  attention boundaries.
 furtherViewing:
   - Don't Look Up (2021)
   - Dr. Strangelove (1964)

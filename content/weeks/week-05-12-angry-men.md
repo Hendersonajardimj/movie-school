@@ -7,11 +7,13 @@ films:
   - title: Minding the Gap
     year: 2018
     runtime: 93
+    poster: /posters/films/minding-the-gap.jpg
   - title: Hoop Dreams
     year: 1994
     runtime: 170
+    poster: /posters/films/hoop-dreams.jpg
 poster: /posters/week-05.jpg
-thesis: Friendship can be protective or fragile depending on class, trauma, and time.
+thesis: 'Friendship can be protective or fragile depending on class, trauma, and time.'
 outcomes:
   - emotional-resilience
   - contextual-awareness
@@ -20,7 +22,9 @@ prompts:
   - How do both films show diverging life paths inside the same friend group?
   - What support did each subject need but not consistently receive?
   - Which friendships in your life are growth engines versus nostalgia loops?
-actionStep: "Reach out to one old friend and ask one real question about how they are actually doing."
+actionStep: >-
+  Reach out to one old friend and ask one real question about how they are
+  actually doing.
 furtherViewing:
   - Boyz n the Hood (1991)
   - Mid90s (2018)

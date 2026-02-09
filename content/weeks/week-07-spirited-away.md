@@ -7,11 +7,13 @@ films:
   - title: Moonlight
     year: 2016
     runtime: 111
+    poster: /posters/films/moonlight-2016.jpg
   - title: Aftersun
     year: 2022
     runtime: 102
+    poster: /posters/films/aftersun-2022.jpg
 poster: /posters/week-07.jpg
-thesis: Emotional literacy is a survival skill, not a soft extra.
+thesis: 'Emotional literacy is a survival skill, not a soft extra.'
 outcomes:
   - emotional-resilience
   - cultural-literacy
@@ -20,7 +22,9 @@ prompts:
   - What feelings are legible in silence across both films?
   - How does each story frame masculinity as performance versus truth?
   - What emotional pattern from your past still shapes your present choices?
-actionStep: "Write one page on an emotion you usually avoid and discuss it with someone you trust."
+actionStep: >-
+  Write one page on an emotion you usually avoid and discuss it with someone you
+  trust.
 furtherViewing:
   - Minari (2020)
   - The Florida Project (2017)

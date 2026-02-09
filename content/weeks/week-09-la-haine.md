@@ -7,11 +7,13 @@ films:
   - title: The Lives of Others
     year: 2006
     runtime: 137
+    poster: /posters/films/the-lives-of-others.jpg
   - title: All the President's Men
     year: 1976
     runtime: 138
+    poster: /posters/films/all-the-presidents-men.jpg
 poster: /posters/week-09.jpg
-thesis: Information control determines what a society can know, trust, and challenge.
+thesis: 'Information control determines what a society can know, trust, and challenge.'
 outcomes:
   - contextual-awareness
   - practical-adulthood
@@ -20,7 +22,9 @@ prompts:
   - What mechanisms of truth suppression appear in both systems?
   - How do personal ethics interact with institutional pressure?
   - What does responsible skepticism look like in your own media diet?
-actionStep: "Build a 5-source information stack with mixed perspectives and one verification source."
+actionStep: >-
+  Build a 5-source information stack with mixed perspectives and one
+  verification source.
 furtherViewing:
   - Spotlight (2015)
   - The Post (2017)

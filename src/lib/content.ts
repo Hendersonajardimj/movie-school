@@ -10,6 +10,7 @@ const filmSchema = z.object({
   title: z.string().min(1),
   year: z.number().int().min(1900).max(2100),
   runtime: z.number().int().min(1),
+  poster: z.string().min(1),
 });
 
 const weekSchema = z.object({
