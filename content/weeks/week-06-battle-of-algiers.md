@@ -10,7 +10,7 @@ films:
   - title: Guess Who's Coming to Dinner
     year: 1967
     runtime: 108
-poster: /posters/week-06.svg
+poster: /posters/week-06.jpg
 thesis: Overt prejudice and polite bias are different forms of the same boundary-making instinct.
 outcomes:
   - cultural-literacy

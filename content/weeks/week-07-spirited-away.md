@@ -10,7 +10,7 @@ films:
   - title: Aftersun
     year: 2022
     runtime: 102
-poster: /posters/week-07.svg
+poster: /posters/week-07.jpg
 thesis: Emotional literacy is a survival skill, not a soft extra.
 outcomes:
   - emotional-resilience

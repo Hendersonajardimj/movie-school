@@ -10,7 +10,7 @@ films:
   - title: Hoop Dreams
     year: 1994
     runtime: 170
-poster: /posters/week-05.svg
+poster: /posters/week-05.jpg
 thesis: Friendship can be protective or fragile depending on class, trauma, and time.
 outcomes:
   - emotional-resilience

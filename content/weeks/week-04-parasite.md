@@ -10,7 +10,7 @@ films:
   - title: Sorry to Bother You
     year: 2018
     runtime: 112
-poster: /posters/week-04.svg
+poster: /posters/week-04.jpg
 thesis: Class pressure reshapes identity, labor, and moral choices.
 outcomes:
   - contextual-awareness

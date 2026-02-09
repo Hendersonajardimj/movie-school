@@ -10,7 +10,7 @@ films:
   - title: Network
     year: 1976
     runtime: 121
-poster: /posters/week-01.svg
+poster: /posters/week-01.jpg
 thesis: Media power compounds when urgency outruns verification.
 outcomes:
   - contextual-awareness

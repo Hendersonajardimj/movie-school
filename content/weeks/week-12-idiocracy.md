@@ -10,7 +10,7 @@ films:
   - title: Brazil
     year: 1985
     runtime: 132
-poster: /posters/week-12.svg
+poster: /posters/week-12.jpg
 thesis: Bureaucracy, spectacle, and anti-intellectual incentives can hollow out civic life.
 outcomes:
   - contextual-awareness

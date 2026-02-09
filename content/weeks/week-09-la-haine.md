@@ -10,7 +10,7 @@ films:
   - title: All the President's Men
     year: 1976
     runtime: 138
-poster: /posters/week-09.svg
+poster: /posters/week-09.jpg
 thesis: Information control determines what a society can know, trust, and challenge.
 outcomes:
   - contextual-awareness

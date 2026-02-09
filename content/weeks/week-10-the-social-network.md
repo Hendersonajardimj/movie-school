@@ -10,7 +10,7 @@ films:
   - title: Her
     year: 2013
     runtime: 126
-poster: /posters/week-10.svg
+poster: /posters/week-10.jpg
 thesis: Technology scales both ambition and emotional outsourcing.
 outcomes:
   - practical-adulthood

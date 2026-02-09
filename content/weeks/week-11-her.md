@@ -10,7 +10,7 @@ films:
   - title: WALL-E
     year: 2008
     runtime: 98
-poster: /posters/week-11.svg
+poster: /posters/week-11.jpg
 thesis: Ecological collapse is a systems problem tied to consumption, governance, and attention.
 outcomes:
   - contextual-awareness

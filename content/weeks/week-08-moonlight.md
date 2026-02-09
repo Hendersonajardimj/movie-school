@@ -10,7 +10,7 @@ films:
   - title: The Farewell
     year: 2019
     runtime: 100
-poster: /posters/week-08.svg
+poster: /posters/week-08.jpg
 thesis: Family identity is negotiated across migration, duty, and belonging.
 outcomes:
   - emotional-resilience

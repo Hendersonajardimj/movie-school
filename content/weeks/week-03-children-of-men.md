@@ -10,7 +10,7 @@ films:
   - title: Children of Men
     year: 2006
     runtime: 109
-poster: /posters/week-03.svg
+poster: /posters/week-03.jpg
 thesis: State force and public fear can normalize extraordinary controls.
 outcomes:
   - contextual-awareness

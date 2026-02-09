@@ -10,7 +10,7 @@ films:
   - title: Barefoot Gen
     year: 1983
     runtime: 83
-poster: /posters/week-02.svg
+poster: /posters/week-02.jpg
 thesis: War is sustained civilian suffering, not abstract strategy.
 outcomes:
   - contextual-awareness
